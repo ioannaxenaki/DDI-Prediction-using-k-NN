@@ -11,10 +11,10 @@ These feature distances are calculated for both drugs in a pair, averaged, and t
 
 # Setup and Data
 This project relies on data from the [DDI-Bench](https://github.com/LARS-research/DDI-Bench) repository. To run the code, download the following files from DDI-Bench:   
-+ train.txt: The training reference dataset mapping drug_id_a, drug_id_b, and relation_id.
-+ test_S0.txt: The test set used for evaluation.
-+ relation2id.json: A dictionary mapping the integer relation IDs (0-85) to their text descriptions.
-+ DB_molecular_feats.pkl: A pickle file containing the SMILES strings, Node IDs, and precomputed Morgan and RDKit2D features for 1,710 drugs.
++ ```train.txt```: The training reference dataset mapping ```drug_id_a```, ```drug_id_b```, and ```relation_id```.
++ ```test_S0.txt```: The test set used for evaluation.
++ ```relation2id.json```: A dictionary mapping the integer relation IDs (0-85) to their text descriptions.
++ ```DB_molecular_feats.pkl```: A pickle file containing the SMILES strings, Node IDs, and precomputed Morgan and RDKit2D features for 1,710 drugs.
 
 # Usage
 The main script, ```Project_1.py```, runs via the command line and supports two modes:   
